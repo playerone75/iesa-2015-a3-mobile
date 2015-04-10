@@ -5,6 +5,7 @@ Commande git
 - git add -A
 - git commit -m"message ici"
 - git push origin master (pour la premiere fois)
+- quand j'ai le truc avec les ~ faire un ":quit" enter
 
 
 Au niveau de l'instalation:
@@ -21,6 +22,16 @@ Pomme virgule pour acceder à "Préférence";
 Pour faire "INSPECTER L'ELEMENT":
 --> preference safari --> avancer --> Cocher la case "Afficher le menu dev dans la barre de menu"
 
+Pour trouver les tailles correspondante
+
+Icon & tailles images
+src from: https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html
+Iphone6+      Iphone6 5 4s      Ipad + mini     Ipad2 + mini
+180 x 180       120 x 120        152 x 152        72 x 72  
+
+
+
+
 Secouer l'iphone = deviceMotion
 
 Une étape importante:
@@ -33,6 +44,11 @@ $ cordova plugin add org.apache.cordova.splashscreen
 Le simulateur:
 cmd+shift+HH (double cliquer sur le simulateur)
 cmd+shift+k  (pour quitter l'application)
+
+Apres chaque modifications que tu veux appliquer:
+- cordova prepare
+- cordova build
+
 
 
 
