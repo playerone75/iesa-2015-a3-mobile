@@ -7,6 +7,12 @@ Commande git
 - git push origin master (pour la premiere fois)
 
 
+Au niveau de l'instalation:
+
+- Installer Node.js avant Cordova
+- 
+
+
 
 
 
